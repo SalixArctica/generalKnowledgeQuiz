@@ -1,0 +1,31 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background: aquamarine;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.title {
+    margin: 1rem;
+}
+
+nav {
+    text-align: right;
+    margin: 1rem;
+    vertical-align: middle;
+}
+
+nav > a {
+    margin: 1rem;
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
